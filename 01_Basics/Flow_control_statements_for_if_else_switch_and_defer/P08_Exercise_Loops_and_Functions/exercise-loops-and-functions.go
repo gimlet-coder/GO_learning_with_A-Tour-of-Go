@@ -25,4 +25,5 @@ func Sqrt(x float64) float64 {
 
 func main() {
 	fmt.Println(Sqrt(2))
+	// ここではニュートン法で得られた近似値が出力される
 }
