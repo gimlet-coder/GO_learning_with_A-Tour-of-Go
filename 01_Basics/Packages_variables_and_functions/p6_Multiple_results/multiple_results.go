@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func swap(x, y string) (string, string) {
+	// Go において, 引数のコピーを関数内で扱う このことにより, C++のような参照渡しではないので元の値に干渉することは基本できない
 	return y, x
 }
 
