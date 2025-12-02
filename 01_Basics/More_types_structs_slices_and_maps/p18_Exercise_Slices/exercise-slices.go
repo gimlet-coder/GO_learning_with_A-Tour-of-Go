@@ -18,4 +18,5 @@ func Pic(dx, dy int) [][]uint8 {
 
 func main() {
 	pic.Show(Pic)
+	// 環境によっては画像データが Base64 文字列で出力されるので, デコードするサイトに貼り付けると復元できる
 }
